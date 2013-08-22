@@ -1,0 +1,42 @@
+
+
+
+
+################# Extra configuration section #######################
+
+# All filenames below have to be absolute (except $icondir).
+
+# A value of "" means that there is a reasonable default, which may
+# depend on the installation directory.
+
+# If $configdir/config_$osname exists, it is read after this
+# configuration section
+
+# ----------------- Basic configuration -----------------------
+
+
+# The port on which p5httpd will listen. NB: ports below 1024 require
+# root privileges on unix machines! Default: 80
+
+
+our $port = 4711;
+
+my ( $never_fork, $fork_after_first_invocation, $fork_always ) = ( 1, 2, 3 );
+our $when_to_fork = $fork_always;
+
+# Whether to run cgi scripts by evaling or executing. $cgis_are_evaled
+# and $cgis_are_executed do just what they say, $only_perl_is_evaled
+# will run perl scripts by evaling and any other programs by executing
+# them.  This is a tad expensive, as all cgi's have to
+# be sniffed and tasted before they are run.
+
+my ($cgis_are_evaled,  $only_perl_is_evaled , $cgis_are_executed) = ( 1, 2 , 3);
+our $eval_or_execute = $cgis_are_executed;
+
+
+############## End of configuration section ########################
+
+# Local Variables:
+# mode: cperl
+# End:
+
