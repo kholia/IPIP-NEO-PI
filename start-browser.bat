@@ -1,1 +1,1 @@
-start "IPIP-NEO" "http://localhost:4711"
+start "IPIP-NEO" "http://localhost:8888"

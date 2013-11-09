@@ -9,18 +9,28 @@ Johnson
 Installation on Windows
 =======================
 
-1. Get and install Strawberry Perl from http://strawberryperl.com/. I usually
-   get and run the ``strawberry-perl-5.18.1.1-32bit.msi`` file. At the end of
-   this step, you will have Perl installed in c:\\strawberry folder.
+1. Get and install Python 2.7.6 from http://www.python.org/download/. At the
+   end of this step, you will have Python installed in the C:\\Python27 folder.
 
-2. Download and extract this repository. Use https://github.com/kholia/IPIP-NEO-PI/archive/develop.zip URL.
+2. Download and extract this repository. Use `this link <https://github.com/kholia/IPIP-NEO-PI/archive/ng.zip>`_ to do that.
 
 3. Run the IPIP-NEO server by clicking on the ``start-server.bat`` file. After
    doing so, you should see something like,
 
-   .. image:: docs/start-server.png
+   .. image:: images/start-server.png
 
 4. Open the IPIP-NEO test in the browser by clicking on the ``start-browser.bat`` file.
+
+Components
+==========
+
+* Bootstrap 3.0.2
+
+* bottle 0.11.6
+
+* jquery.jqplot.1.0.8r1250
+
+* Selenium 2.37.2
 
 Credits
 =======
@@ -34,52 +44,50 @@ Credits
 Upstream
 ========
 
-http://www.personal.psu.edu/j5j/IPIP/
+* http://www.personal.psu.edu/j5j/IPIP/
 
-Dr John A. Johnson (j5j [at] psu [dot] edu)
+* Dr John A. Johnson (j5j [at] psu [dot] edu)
 
 License
 =======
 
-public domain :-)
-
-http://ipip.ori.org/newPermission.htm
+* Public Domain. See http://ipip.ori.org/newPermission.htm for more information.
 
 Resources
 =========
 
-http://www.personal.psu.edu/j5j/IPIP/ipipneo300.htm
+* http://www.personal.psu.edu/j5j/IPIP/ipipneo300.htm
 
-http://www.personal.psu.edu/~j5j/IPIP/ipipneo120.htm
+* http://www.personal.psu.edu/~j5j/IPIP/ipipneo120.htm
 
-http://www.personal.psu.edu/~j5j/papers/ConferencePapers/2011ARP.pdf
+* http://www.personal.psu.edu/~j5j/papers/ConferencePapers/2011ARP.pdf
 
-http://www.personal.psu.edu/j5j/IPIP/
+* http://www.personal.psu.edu/j5j/IPIP/
 
-http://www.personal.psu.edu/faculty/j/5/j5j/papers/IPIP2006.pdf
+* http://www.personal.psu.edu/faculty/j/5/j5j/papers/IPIP2006.pdf
 
-http://personality-project.org/pmc.html
+* http://personality-project.org/pmc.html
 
-http://ipip.ori.org/
+* http://ipip.ori.org/
 
-http://personality-project.org/r/psych/
+* http://personality-project.org/r/psych/
 
-http://sapa-project.org/
+* http://sapa-project.org/
 
-http://personality-project.org/pmc.html
+* http://personality-project.org/pmc.html
 
-http://www.personality-project.org/r/book/
+* http://www.personality-project.org/r/book/
 
-http://personality-testing.info/
+* http://personality-testing.info/
 
-http://ipip.ori.org/newNEOFacetsKey.htm
+* http://ipip.ori.org/newNEOFacetsKey.htm
 
-http://en.wikipedia.org/wiki/Revised_NEO_Personality_Inventory
+* http://en.wikipedia.org/wiki/Revised_NEO_Personality_Inventory
 
-http://pages.uoregon.edu/sanjay/bigfive.html
+* http://pages.uoregon.edu/sanjay/bigfive.html
 
-http://drj.virtualave.net/IPIP/bargray.jpg
+* http://drj.virtualave.net/IPIP/bargray.jpg
 
-http://drj.virtualave.net/IPIP/grphhead.jpg
+* http://drj.virtualave.net/IPIP/grphhead.jpg
 
-http://www.personal.psu.edu/~j5j/papers/ConferencePapers/2011ARP.pdf
+* http://www.personal.psu.edu/~j5j/papers/ConferencePapers/2011ARP.pdf

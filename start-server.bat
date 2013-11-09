@@ -1,2 +1,3 @@
 cd app
-perl p5httpd.pl
+C:\Python27\python server.py
+pause
