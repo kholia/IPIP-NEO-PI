@@ -24,13 +24,13 @@ Installation on Windows
 Components
 ==========
 
-* Bootstrap 3.0.2
+* Bootstrap
 
-* bottle 0.11.6
+* Bottle
 
 * jquery.jqplot.1.0.8r1250
 
-* Selenium 2.37.2
+* Selenium
 
 Credits
 =======
