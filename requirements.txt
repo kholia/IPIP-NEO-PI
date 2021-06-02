@@ -1,0 +1,6 @@
+bottle
+ipython
+pyquery
+requests
+selenium
+selenium-wire

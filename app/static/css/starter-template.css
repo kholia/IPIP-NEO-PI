@@ -1,0 +1,28 @@
+body {
+}
+
+.starter-template {
+	padding: 40px 15px;
+}
+
+.results img {
+	height: 20px;
+}
+
+td { text-align: center;}
+#main td:nth-child(1) { text-align: center;}
+#main td:nth-child(2) { text-align: left; padding-left:8px;}
+#main td:nth-child(2) { width: 28%;}
+#main td:nth-child(3) { width: 14%;}
+#main td:nth-child(4) { width: 13%;}
+#main td:nth-child(5) { width: 17%;}
+#main td:nth-child(6) { width: 12%;}
+#main td { height: 70px;}
+
+.note {
+	font-size: 0.8em;
+}
+
+.jqplot-yaxis-tick {
+	white-space: nowrap;
+}
