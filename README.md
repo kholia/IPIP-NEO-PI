@@ -12,9 +12,8 @@ Johnson
 
 #### Upstream Resources
 
-* http://www.personal.psu.edu/j5j/IPIP/ (original website)
-
-* Dr John A. Johnson (j5j [at] psu [dot] edu)
+* [Current home of the original web-based test](https://drj.virtualave.net/IPIP/index.html) (originally hosted at https://www.personal.psu.edu/j5j/IPIP/ )
+* Dr John A. Johnson (j5j [at] psu [dot] edu) - [homepage](https://sites.psu.edu/drj5j/)
 
 #### Installation on Windows
 
