@@ -1,0 +1,13 @@
+{{define "title"}}IPIP-NEO-PI Historical Reports{{end}}
+{{define "content"}}
+<p>Historical Reports (saved in <code>{{.path}}</code>, <a href="results.csv">download CSV</a>):</p>
+<table border="1">
+{{range .rows}}
+  <tr>
+  {{range .}}
+    <td>{{.}}</td>
+  {{end}}
+  </tr>
+{{end}}
+</table>
+{{end}}

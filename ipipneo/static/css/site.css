@@ -1,0 +1,35 @@
+/* Replaces Bootstrap 3, of which only the .container layout was used. */
+
+body {
+	margin: 0;
+	padding: 8px;
+	background: #fff;
+	color: #333;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.43;
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 40px 15px;
+}
+
+/* Upstream toggles these from JavaScript but ships no CSS for them. */
+.error {
+	display: none;
+	color: red;
+}
+
+.hide {
+	display: none;
+}
+
+.note {
+	font-size: 0.8em;
+}
+
+.jqplot-yaxis-tick {
+	white-space: nowrap;
+}
